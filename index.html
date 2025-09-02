@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dôzo Diet Planner (Seguro)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo_dozo.png" alt="Dozo Logo" class="logo">
+  </header>
+  <main>
+    <h1>Planificador de Dietas Dôzo</h1>
+    <form id="dietForm">
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="sex">Sexo:</label>
+        <select id="sex" required>
+          <option value="">Selecciona</option>
+          <option value="male">Masculino</option>
+          <option value="female">Femenino</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="age">Edad:</label>
+        <input type="number" id="age" min="1" required>
+      </div>
+      <div class="form-group">
+        <label for="weight">Peso (kg):</label>
+        <input type="number" id="weight" min="1" step="0.1" required>
+      </div>
+      <div class="form-group">
+        <label for="height">Altura (cm):</label>
+        <input type="number" id="height" min="1" required>
+      </div>
+      <div class="form-group">
+        <label for="activity">Nivel de Actividad:</label>
+        <select id="activity" required>
+          <option value="">Selecciona</option>
+          <option value="low">Bajo</option>
+          <option value="light">Ligero</option>
+          <option value="moderate">Moderado</option>
+          <option value="high">Alto</option>
+          <option value="intense">Intenso</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="goal">Objetivo de Peso:</label>
+        <select id="goal" required>
+          <option value="">Selecciona</option>
+          <option value="lose">Perder</option>
+          <option value="maintain">Mantener</option>
+          <option value="gain">Ganar</option>
+        </select>
+      </div>
+      <fieldset>
+        <legend>Condiciones Médicas:</legend>
+        <div class="checkbox-group">
+          <input type="checkbox" name="condition" value="diabetes" id="diabetes">
+          <label for="diabetes">Diabetes</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="condition" value="celiac" id="celiac">
+          <label for="celiac">Enfermedad Celíaca</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="condition" value="cholesterol" id="cholesterol">
+          <label for="cholesterol">Colesterol Alto</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="condition" value="lactose" id="lactose">
+          <label for="lactose">Intolerancia a la Lactosa</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="condition" value="hypertension" id="hypertension">
+          <label for="hypertension">Hipertensión</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="condition" value="pregnancy" id="pregnancy">
+          <label for="pregnancy">Embarazo</label>
+        </div>
+        <div class="form-group">
+          <label for="allergies">Alergias:</label>
+          <input type="text" id="allergies" placeholder="ej.: maní, huevos">
+        </div>
+      </fieldset>
+      <div class="form-group">
+        <label for="dietType">Tipo de Dieta:</label>
+        <select id="dietType" required>
+          <option value="">Selecciona</option>
+          <option value="normal">Normal</option>
+          <option value="vegetarian">Vegetariana</option>
+          <option value="vegan">Vegana</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="location">Ciudad:</label>
+        <select id="location" required>
+          <option value="">Selecciona tu ciudad</option>
+          <option value="santiago">Santiago</option>
+          <option value="concepcion">Concepción</option>
+          <option value="vina-del-mar">Viña del Mar</option>
+          <option value="la-serena">La Serena</option>
+        </select>
+      </div>
+      <fieldset>
+        <legend>Comidas a Incluir:</legend>
+        <div class="checkbox-group">
+          <input type="checkbox" name="meal" value="breakfast" id="breakfast">
+          <label for="breakfast">Desayuno</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="meal" value="firstSnack" id="firstSnack">
+          <label for="firstSnack">Primer Snack</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="meal" value="lunch" id="lunch">
+          <label for="lunch">Almuerzo</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="meal" value="secondSnack" id="secondSnack">
+          <label for="secondSnack">Segundo Snack</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="meal" value="dinner" id="dinner">
+          <label for="dinner">Cena</label>
+        </div>
+      </fieldset>
+      <div class="form-group">
+        <label for="days">Número de Días (1-30):</label>
+        <input type="number" id="days" min="1" max="30" required>
+      </div>
+      <div class="button-group">
+        <button type="submit">Generar Dieta</button>
+        <button type="button" id="reset">Restablecer</button>
+      </div>
+      <small>Nota: Distribución calórica diaria objetivo — 20–25% desayuno, 30–40% almuerzo, 20–30% cena, 5–10% snacks y 0–10% margen flexible.</small>
+    </form>
+    <div id="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

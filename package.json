@@ -1,0 +1,18 @@
+{
+  "name": "dozo_diet_planner_secure",
+  "version": "1.0.0",
+  "description": "Este prototipo mueve la lógica de generación de menús a un **backend** (Node/Express) para que **no expongas tu API Key** en el navegador. Además: - **No repite** el mismo menú dentro de **7 días** y **máximo 3 veces en 30 días**. - **Quita vegetales en el desayuno** automáticamente. - **Respeta bandas calóricas** por comida: 20–25% desayuno, 30–40% almuerzo, 20–30% cena, 5–10% snacks, 0–10% margen flexible. - Usa un **catálogo local por ciudad** (Santiago, Concepción, Viña del Mar, La Serena) con alimentos **comunes en Chile**.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

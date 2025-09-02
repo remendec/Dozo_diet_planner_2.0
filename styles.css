@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+header { text-align: center; margin-bottom: 20px; }
+.logo { max-width: 150px; }
+h1 { color: #333; text-align: center; }
+form {
+  max-width: 600px; margin: 0 auto; background: white; padding: 20px;
+  border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.form-group { margin: 15px 0; display: flex; align-items: center; }
+.form-group label { width: 150px; margin-right: 10px; text-align: right; }
+.form-group input, .form-group select {
+  flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 4px;
+}
+fieldset { margin: 15px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+.checkbox-group { display: flex; align-items: center; margin: 10px 0 10px 20px; }
+.checkbox-group input[type=checkbox] { margin: 0 10px 0 0; }
+.checkbox-group label { margin: 0; }
+.button-group { text-align: center; margin-top: 20px; }
+button { padding: 10px 20px; background-color: #28a745; color: #fff; border: none; border-radius: 4px; cursor: pointer; margin: 0 10px; }
+button:hover { background-color: #218838; }
+#reset { background-color: #dc3545; } #reset:hover { background-color: #c82333; }
+#result {
+  max-width: 900px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.alert { color: red; font-weight: bold; }
+.diet-plan { margin-top: 20px; }
+.day-section { margin-bottom: 30px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,.1); }
+.day-odd { background-color: #e9f7ef; } .day-even { background-color: #f2e9f7; }
+.day-section h3 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px; }
+.meal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+.meal-card { background-color: #fff; padding: 15px; border-radius: 6px; border: 1px solid #ddd; }
+.meal-card h4 { color: #2980b9; margin: 0 0 10px; font-size: 16px; border-bottom: 1px dashed #ddd; padding-bottom: 5px; }
+.meal-table { width: 100%; border-collapse: collapse; }
+.meal-table td { padding: 5px 10px; border-bottom: 1px solid #eee; }
+.meal-table td:first-child { font-weight: bold; width: 120px; text-align: right; color: #555; }
+.meal-table td:last-child { text-align: left; color: #333; }
+.summary { font-size: 16px; color: #444; margin-bottom: 20px; text-align: center; }
+.snack-card { background-color: #fef9e7; padding: 10px; text-align: center; }

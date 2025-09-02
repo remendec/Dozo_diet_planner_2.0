@@ -1,0 +1,240 @@
+{
+  "common_rules": {
+    "exclude_fruits_as_lemons": true,
+    "breakfast_no_vegetables": true
+  },
+  "cities": {
+    "santiago": {
+      "carbs": {
+        "all": [
+          "Arroz",
+          "Pasta integral",
+          "Papas",
+          "Camote",
+          "Quinoa",
+          "Pan integral",
+          "Cuscús"
+        ],
+        "breakfast": [
+          "Avena",
+          "Pan integral",
+          "Tortilla de avena"
+        ]
+      },
+      "proteins": {
+        "all": [
+          "Pollo",
+          "Pavo",
+          "Atún",
+          "Jurel",
+          "Huevo",
+          "Quesillo",
+          "Lentejas",
+          "Porotos",
+          "Garbanzos"
+        ],
+        "breakfast": [
+          "Huevo",
+          "Quesillo",
+          "Yogurt natural"
+        ]
+      },
+      "vegetables": [
+        "Lechuga",
+        "Tomate",
+        "Zanahoria",
+        "Brócoli",
+        "Cebolla",
+        "Zapallo italiano",
+        "Espinaca",
+        "Choclo"
+      ],
+      "fruits": [
+        "Plátano",
+        "Manzana",
+        "Pera",
+        "Naranja",
+        "Mandarina",
+        "Durazno",
+        "Berries"
+      ],
+      "snacks": [
+        "Yogurt natural",
+        "Maní",
+        "Nueces",
+        "Almendras",
+        "Semillas de girasol",
+        "Fruta fresca"
+      ]
+    },
+    "concepcion": {
+      "carbs": {
+        "all": [
+          "Arroz",
+          "Pasta integral",
+          "Papas",
+          "Camote",
+          "Quinoa",
+          "Pan integral"
+        ],
+        "breakfast": [
+          "Avena",
+          "Pan integral"
+        ]
+      },
+      "proteins": {
+        "all": [
+          "Pollo",
+          "Pavo",
+          "Atún",
+          "Jurel",
+          "Huevo",
+          "Quesillo",
+          "Lentejas",
+          "Porotos",
+          "Garbanzos"
+        ],
+        "breakfast": [
+          "Huevo",
+          "Quesillo",
+          "Yogurt natural"
+        ]
+      },
+      "vegetables": [
+        "Lechuga",
+        "Tomate",
+        "Zanahoria",
+        "Brócoli",
+        "Cebolla",
+        "Repollo"
+      ],
+      "fruits": [
+        "Plátano",
+        "Manzana",
+        "Pera",
+        "Naranja",
+        "Mandarina"
+      ],
+      "snacks": [
+        "Yogurt natural",
+        "Maní",
+        "Nueces",
+        "Almendras",
+        "Semillas de girasol",
+        "Fruta fresca"
+      ]
+    },
+    "vina-del-mar": {
+      "carbs": {
+        "all": [
+          "Arroz",
+          "Pasta integral",
+          "Papas",
+          "Quinoa",
+          "Pan integral"
+        ],
+        "breakfast": [
+          "Avena",
+          "Pan integral"
+        ]
+      },
+      "proteins": {
+        "all": [
+          "Pollo",
+          "Pavo",
+          "Atún",
+          "Jurel",
+          "Huevo",
+          "Quesillo",
+          "Lentejas",
+          "Porotos",
+          "Garbanzos"
+        ],
+        "breakfast": [
+          "Huevo",
+          "Quesillo",
+          "Yogurt natural"
+        ]
+      },
+      "vegetables": [
+        "Lechuga",
+        "Tomate",
+        "Zanahoria",
+        "Brócoli",
+        "Cebolla"
+      ],
+      "fruits": [
+        "Plátano",
+        "Manzana",
+        "Pera",
+        "Naranja",
+        "Durazno",
+        "Berries"
+      ],
+      "snacks": [
+        "Yogurt natural",
+        "Maní",
+        "Nueces",
+        "Almendras",
+        "Fruta fresca"
+      ]
+    },
+    "la-serena": {
+      "carbs": {
+        "all": [
+          "Arroz",
+          "Pasta integral",
+          "Papas",
+          "Quinoa",
+          "Pan integral",
+          "Cuscús"
+        ],
+        "breakfast": [
+          "Avena",
+          "Pan integral"
+        ]
+      },
+      "proteins": {
+        "all": [
+          "Pollo",
+          "Pavo",
+          "Atún",
+          "Jurel",
+          "Huevo",
+          "Quesillo",
+          "Lentejas",
+          "Porotos",
+          "Garbanzos"
+        ],
+        "breakfast": [
+          "Huevo",
+          "Quesillo",
+          "Yogurt natural"
+        ]
+      },
+      "vegetables": [
+        "Lechuga",
+        "Tomate",
+        "Zanahoria",
+        "Brócoli",
+        "Cebolla"
+      ],
+      "fruits": [
+        "Plátano",
+        "Manzana",
+        "Pera",
+        "Naranja",
+        "Mandarina",
+        "Berries"
+      ],
+      "snacks": [
+        "Yogurt natural",
+        "Maní",
+        "Nueces",
+        "Almendras",
+        "Semillas de girasol",
+        "Fruta fresca"
+      ]
+    }
+  }
+}
