@@ -38,9 +38,9 @@ Daily caloric requirements are estimated using the Harris-Benedict formula, adju
 - Height
 - Physical activity level
 - Nutritional goal:
- - Weight loss
- - Maintenance
- - Weight gain
+  - Weight loss
+  - Maintenance
+  - Weight gain
 A minimum safety calorie threshold is enforced to prevent excessively restrictive diets.
 
 2. Daily caloric distribution
@@ -100,10 +100,10 @@ Future projections for Dôzo include:
 - A mobile application (Android / iOS)
 - Progressive preference-learning mechanisms
 - Integration with:
- - Real pricing data
- - Budget constraints
- - Dynamic food substitutions
- - Regional food demand forecasting
+  - Real pricing data
+  - Budget constraints
+  - Dynamic food substitutions
+  - Regional food demand forecasting
 
 Important disclaimer
 This software is an experimental prototype.
