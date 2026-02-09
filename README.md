@@ -1,7 +1,7 @@
-## Dôzo Diet Planner
+# Dôzo Diet Planner
 Prototype infrastructure for personalized dietary decision-making
 
-# General description
+## General description
 Dôzo Diet Planner is a functional software prototype focused on generating personalized healthy diets, designed as a platform for capturing, structuring, and analyzing individualized food demand.
 
 The system uses the Harris-Benedict formula as its caloric calculation base (adjusted by activity level and weight objective), and collects personal and contextual user data in order to:
@@ -11,7 +11,7 @@ The system uses the Harris-Benedict formula as its caloric calculation base (adj
 - Establish the foundation for progressive learning of tastes, preferences, and consumption patterns.
 This version corresponds to a local prototype, focused on selected cities in Chile, and does not constitute a medical product nor replace professional evaluation by a nutritionist or physician.
 
-# The problem Dôzo addresses
+## The problem Dôzo addresses
 Dôzo is not limited to answering “what should a person eat”.
 Its structural objective is to answer questions such as:
 - What would a specific person eat, in a specific location, during a specific week, under specific constraints?
@@ -29,7 +29,7 @@ In the medium term, the system’s value lies not only in the generated menu, bu
 Example of a future expected outcome:
 “In this area, there are X thousand active dietary profiles with clear seasonal patterns and consistent preferences, enabling food demand forecasting with reduced uncertainty.”
 
-# Technical foundations of the algorithm
+## Technical foundations of the algorithm
 1. Caloric calculation
 Daily caloric requirements are estimated using the Harris-Benedict formula, adjusted for:
 - Sex
@@ -110,13 +110,13 @@ This software is an experimental prototype.
 It does not replace professional healthcare evaluation.
 Dôzo does not prescribe medical treatments, it only proposes menus compatible with user-declared constraints.
 
-# Usage instructions (local version)
+## Usage instructions (local version)
 Requirements
 - Windows
 - Node.js installed
 - Modern web browser (Chrome, Edge, Firefox)
 
-# Running the program
+## Running the program
  1. Download or clone this repository to your computer.
  2. Ensure all files are located in the same folder.
  3. Locate the file:
@@ -127,7 +127,7 @@ The system will:
 - Automatically open the browser with the application running.
 - No terminal usage or manual command execution is required.
 
-# Basic usage
+## Basic usage
 1. Complete the form with your personal data.
 2. Select medical conditions and dietary preferences.
 3. Choose the city and number of days.
